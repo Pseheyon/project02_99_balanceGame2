@@ -11,7 +11,7 @@ import Home from "../pages/Home";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,7 +25,7 @@ const Router = () => {
         <Route path="/games/:gameId" element={<Detail />} />
         <Route path="/*" element={<Error />} />
       </Routes>
-    </BrowserRouter>
+    </>
   );
 };
 

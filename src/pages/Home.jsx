@@ -67,7 +67,7 @@ function Home() {
       <StBackGroundImg>
         <StHomeContainer>
           <div>
-            <StTitle src={"images/logo.png"} />
+            <StTitle src={"images/Logo.png"} />
           </div>
           <StHomeCardWrapper>
             <StPosition>
@@ -81,7 +81,7 @@ function Home() {
                   GAME START
                 </ButtonRe>
               </StButtonWrapper>
-              <StExplanation src={"images/homeInfo.png"} />
+              <StExplanation src="images/homeInfo.png" />
             </StPosition>
           </StHomeCardWrapper>
         </StHomeContainer>
