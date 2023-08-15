@@ -50,10 +50,10 @@ apis_token.interceptors.request.use(
     return Promise.reject(error);
   }
 );
-// const apiUrl = process.env.REACT_APP_API_URL;
+export const api = process.env.REACT_APP_API_URL;
 
-// const instance = axios.create({
-//   baseURL: apiUrl,
-// });
+const instance = axios.create({
+  baseURL: api,
+});
 
-// export default instance;
+export default instance;
