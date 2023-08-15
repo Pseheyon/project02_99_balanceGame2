@@ -52,7 +52,7 @@ function Header() {
       <StWidthWraprer>
         <FlexRow>
           <StLogoMin
-            src={"images/logo.png"}
+            src={"/images/logo.png"}
             onClick={() => {
               navigate("/");
             }}
