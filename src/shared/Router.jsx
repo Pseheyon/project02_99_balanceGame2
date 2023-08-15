@@ -16,10 +16,7 @@ const Router = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route
-          path="/project02_99_balanceGame2/signup"
-          element={<Register />}
-        />
+        <Route path="/signup" element={<Register />} />
         <Route path="/games" element={<CardList />} />
         <Route path="/game/submit" element={<Edit />} />
         <Route path="/games/:gameId" element={<Detail />} />

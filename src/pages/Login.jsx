@@ -113,7 +113,7 @@ export default Login;
 
 const StBackGroundImg = styled.div`
   font-family: "Montserrat";
-  background-image: url("background/login.png");
+  background-image: url("background/Login.png");
   background-size: cover;
   background-position: center;
   width: 100vw;

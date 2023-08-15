@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-import api from "../../axios/api";
+import { api } from "../../axios/api";
 
 export const __getComments = createAsyncThunk(
   "GET_COMMENTS",

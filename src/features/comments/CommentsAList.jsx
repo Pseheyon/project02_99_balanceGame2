@@ -58,14 +58,14 @@ const CommentsAList = () => {
         </div>
       </BoxDiv>
       <BoxDiv>
-        <boxWidht
+        <BoxWidht
           style={{
             color: "#FF6DB4",
           }}
         >
           Option B
-        </boxWidht>
-        <boxWidht>
+        </BoxWidht>
+        <BoxWidht>
           {comments &&
             comments
               .filter((comment) => comment.option == "B")
@@ -78,7 +78,7 @@ const CommentsAList = () => {
                   }
                 />
               ))}
-        </boxWidht>
+        </BoxWidht>
       </BoxDiv>
     </StwidthBox>
   );
@@ -86,7 +86,7 @@ const CommentsAList = () => {
 
 export default CommentsAList;
 
-const boxWidht = styled.div`
+const BoxWidht = styled.div`
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;

@@ -59,7 +59,7 @@ function Edit() {
           <form onSubmit={onSubmitHandler}>
             <StInputWrap>
               <Input
-                text="TITLE"
+                text="title"
                 type="text"
                 name="title"
                 placeholder="10자 내로 제목을 지어주세요."
