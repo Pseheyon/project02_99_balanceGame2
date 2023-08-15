@@ -14,21 +14,14 @@ const Router = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/project02_99_balanceGame2/" element={<Home />} />
-        <Route path="/project02_99_balanceGame2/login" element={<Login />} />
+        <Route path="/login" element={<Login />} />
         <Route
           path="/project02_99_balanceGame2/signup"
           element={<Register />}
         />
-        <Route path="/project02_99_balanceGame2/games" element={<CardList />} />
-        <Route
-          path="/project02_99_balanceGame2/game/submit"
-          element={<Edit />}
-        />
-        <Route
-          path="/project02_99_balanceGame2/games/:gameId"
-          element={<Detail />}
-        />
+        <Route path="/games" element={<CardList />} />
+        <Route path="/game/submit" element={<Edit />} />
+        <Route path="/games/:gameId" element={<Detail />} />
         <Route path="/*" element={<Error />} />
       </Routes>
     </BrowserRouter>
